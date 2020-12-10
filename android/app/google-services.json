@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930104989670",
+    "project_id": "finitedev-acf24",
+    "storage_bucket": "finitedev-acf24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930104989670:android:25b1bc7d8bff77873a2827",
+        "android_client_info": {
+          "package_name": "com.finitedev.enote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930104989670-m79kditbooud81hb2hb1gn0uptrb5rqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvaNYHwV4ma9mHuDY5tg8X1WTFJ3p4fUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930104989670-m79kditbooud81hb2hb1gn0uptrb5rqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
