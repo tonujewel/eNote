@@ -6,7 +6,6 @@ import 'package:get/get.dart';
 class SplashController extends GetxController {
   @override
   void onInit() {
-    print("call oniti");
     Timer(Duration(seconds: 3), () => Get.off(PhoneNumber()));
     super.onInit();
   }
