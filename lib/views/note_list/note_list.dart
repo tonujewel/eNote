@@ -50,10 +50,12 @@ class NoteList extends StatelessWidget {
                             height: size.height * .25,
                             padding: EdgeInsets.only(top: 30, left: 20),
                             decoration: BoxDecoration(
-                                color: Color(0xff9e9e9e),
-                                borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(20),
-                                    topRight: Radius.circular(20))),
+                              color: Color(0xff9e9e9e),
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(20),
+                                topRight: Radius.circular(20),
+                              ),
+                            ),
                             child: Column(
                               children: [
                                 // Update note
@@ -181,16 +183,19 @@ class NoteList extends StatelessWidget {
                             children: [
                               Text(
                                 "${snapshot.data.docs[index].data()['title']}",
+                                maxLines: 1,
                                 style: TextStyle(
                                     color: Colors.white70,
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 18),
+                                    fontSize: 18,
+                                ),
                               ),
                               SizedBox(
                                 height: 10,
                               ),
                               Text(
                                   "${snapshot.data.docs[index].data()['desc']}",
+                                  maxLines: 5,
                                   style: TextStyle(color: Colors.white70)),
                               SizedBox(
                                 height: 20,

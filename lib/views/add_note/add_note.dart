@@ -75,6 +75,7 @@ class _AddNoteState extends State<AddNote> {
             TextField(
               controller: noteController.descController,
               style: kNoteTextLargeLight,
+              keyboardType: TextInputType.multiline,
               decoration: const InputDecoration.collapsed(
                 hintText: 'Note',
                 hintStyle: kNoteTextLargeLight,
